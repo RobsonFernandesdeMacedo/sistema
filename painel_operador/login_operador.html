@@ -27,6 +27,11 @@
     .form-signin {
       max-width: 330px;
       padding: 15px;
+      margin: 0 auto;
+      background-color: #3f444f;
+      border-radius: 4px;
+      border: 2px solid #343841;
+      color: #fff;
     }
     .form-signin .form-floating:focus-within {
       z-index: 2;
@@ -46,16 +51,8 @@
   <body>
     <main class="container align-items-center">
       <div class="text-center">
-        <img
-          class="mb-4"
-          src="assets/system_icon.svg"
-          alt=""
-          width=""
-          height="100"
-        />
-        <p class="text-white" style="font-size: 15px">
-          Suporte Desk e atendimento Online
-        </p>
+
+        
       </div>
 
       <form
@@ -66,10 +63,10 @@
         ng-if="viewForm === 1"
       >
         <h2 class="form-signin-heading text-center">
-          <img
-            src=""
-            alt=""
-          />
+          <img class="" src="assets/system_icon.svg" alt="" height="100"/>
+          <p class="text-white" style="font-size: 15px">
+            Suporte Desk e atendimento Online
+          </p>
         </h2>
         <input
           ng-disabled="realizandoLogin"
